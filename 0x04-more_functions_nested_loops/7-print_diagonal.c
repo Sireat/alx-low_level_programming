@@ -1,30 +1,23 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_diagonal - check for a digit
- * @n : number of \\ to be printed
- * Return:void
+ * print_diagonal - prints diagonal line n times
+ * @n: times diagonal line is printed
+ * Return: no return
  */
-
 void print_diagonal(int n)
 {
+	int i, j;
 
-	int i = 0, ii;
-
-	while (i < n && n > 0)
+	for (i = 0; i < n; i++)
 	{
-		ii = 0;
-		while (ii < i)
+		for (j = 0; j < i; j++)
 		{
 			_putchar(' ');
-			ii++;
 		}
-
-		_putchar('\\');
-		_putchar('\n');
-		i++;
+		_putchar(92);
+		if (i < (n - 1))
+			_putchar('\n');
 	}
-	if (i == 0)
-		_putchar('\n');
-
+	_putchar('\n');
 }
