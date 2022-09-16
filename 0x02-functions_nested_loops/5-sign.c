@@ -1,30 +1,28 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * print_sign - check numers
- * @n : number to check
- * Return:0 or 1
+ * print_sign - checks for integer sign
+ * @n: the integer to be checked
+ *
+ * Return: 0 or 1
  */
 
 int print_sign(int n)
 {
-int test;
-
-if (n > 0)
-{
-	test = 1;
-	_putchar('+');
-}
-else if (n == 0)
-{
-	test = 0;
-	_putchar('0');
-}
-else
-{
-	test = -1;
-	_putchar('-');
-}
-
-return (test);
+	if (n > 0)
+	{
+		_putchar(43);
+		return (1);
+	}
+	else if (n < 0)
+	{
+		_putchar(45);
+		return (-1);
+	}
+	else
+	{
+		_putchar(48);
+		return (0);
+	}
+	_putchar('\n');
 }
