@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 nclude "main.h"
 
 
+=======
+#include "main.h"
+>>>>>>> ff4ca111a86ac12af36fba3e52e0b3df2598db47
 
 /**
  *
@@ -19,6 +23,7 @@ nclude "main.h"
 
 
 int largest_number(int a, int b, int c)
+<<<<<<< HEAD
 
 {
 
@@ -54,4 +59,24 @@ int largest_number(int a, int b, int c)
 
 						return (largest);
 
+=======
+{
+	int largest;
+
+	if (a >= b && a >= c)
+	{
+		largest = a;
+	}
+	else if (b >= a && b >= c)
+	{
+		largest = b;
+	}
+	else
+	{
+		largest = c;
+	}
+
+	return (largest);
+>>>>>>> ff4ca111a86ac12af36fba3e52e0b3df2598db47
 }
+
