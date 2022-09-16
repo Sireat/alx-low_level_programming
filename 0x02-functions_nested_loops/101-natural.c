@@ -1,25 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - main block
- * Description: computes and prints the sum of all the multiples of 3 or
- * 5 below 1024 (excluded), followed by a new line
- * Return: 0
+ * main - prints natural numbers below 1024 that are multiples of 3 or 5
+ *
+ * Return: Always 0
  */
 int main(void)
 {
-	int c = 0;
-	int sum = 0;
+	int a, b;
 
-	while (c < 1024)
+	for (a = 1; a < 1024; a++)
 	{
-		if (c % 3 == 0 || c % 5 == 0)
-		{
-			sum += c;
-		}
-
-		c++;
+		if ((a % 3) == 0 || (a % 5) == 0)
+			b += a;
 	}
-	printf("%i\n", sum);
+	printf("%d\n", b);
 	return (0);
 }
