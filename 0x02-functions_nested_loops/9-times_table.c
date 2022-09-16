@@ -40,5 +40,3 @@ void times_table(void)
 		}
 	}
 }
-Footer
-© 2022
