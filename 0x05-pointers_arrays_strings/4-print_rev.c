@@ -1,13 +1,24 @@
 #include "main.h"
 /**
- * print_rev - to reverse a string
+ *print_rev - prints strin in reverse.
+ *@s: pointer to string.
  *
- * @str: a string to reverse.
- *
+ *Return: void.
  */
 void print_rev(char *s)
 {
-    s="I do not fear computers. I fear the lack of them - Isaac Asimov";
+	int length, last;
 
-        print_rev(s);
+	length = 0;
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+
+	last = length - 1;
+	for (; last >= 0; last--)
+	{
+		_putchar(s[last]);
+	}
+	_putchar('\n');
 }
