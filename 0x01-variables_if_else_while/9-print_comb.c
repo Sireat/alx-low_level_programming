@@ -1,16 +1,11 @@
 #include <stdio.h>
 
 
-
 /**
+ * main - Prints numbers within 0 to 9, adding commas and spaces
  *
- *  * main - Prints numbers within 0 to 9, adding commas and spaces
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
