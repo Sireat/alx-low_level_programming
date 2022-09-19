@@ -1,14 +1,9 @@
 #include "main.h"
 
-
-
 /**
- *
- *  * _puts - primts a string to standard output
- *
- *   * @str: the string to be printed
- *
- *    */
+ * _puts - primts a string to standard output
+ * @str: the string to be printed
+ */
 
 void _puts(char *str)
 
