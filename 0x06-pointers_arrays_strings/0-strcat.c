@@ -1,22 +1,10 @@
 #include "main.h"
-
 /**
-<<<<<<< HEAD
-* *_strcat - concatenates two strings.
-*
-* @dest: destination
-*
-*  @src: source
-*
-* Return: the pointer to dest
-*/
-=======
- * *_strcat - concatenates two strings.
+ * _strcat - concatenates two strings.
  * @dest: destination
  * @src: source
  * Return: the pointer to dest
  */
->>>>>>> b519a3b88cf8c69a3ea898914efc3345ed839bb0
 char *_strcat(char *dest, char *src)
 {
 	int count = 0, count2 = 0;
