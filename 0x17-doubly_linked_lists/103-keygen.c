@@ -1,1 +1,1 @@
-./crackme5 username key
+crackme5 username key
