@@ -10,5 +10,5 @@ int main(void)
 {
 
 printf("%d\n", _strlen("My Dyn Lib"));
-    niireturn (EXIT_SUCCESS);
+   return (EXIT_SUCCESS);
 }
